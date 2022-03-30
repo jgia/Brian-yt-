@@ -1,6 +1,6 @@
 
-##### This app is just an extremely simple example.
-##### See the Streamlit documentation for how to create more complex apps.
+###### This app is just an extremely simple example.
+###### See the Streamlit documentation for how to create more complex apps.
 
 import streamlit as st
 import pandas as pd
