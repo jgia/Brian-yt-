@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.title( 'Brian(yt)\'s Glorious Table' )
-df = pd.read_csv("National Universities Rankings.csv", encoing='latin')
+df = pd.read_csv("National Universities Rankings.csv", encoding='latin')
 df['Tuition and fees'] = df['Tuition and fees'].str.replace(',', '').str.replace('$', '').astype(int)
 df['In-state'] = df['In-state'].replace('nan', np.nan).str.replace(',', '').str.replace('$', '').astype(float)
 df['Undergrad Enrollment'] = df['Undergrad Enrollment'].str.replace(',', '').astype(int)
